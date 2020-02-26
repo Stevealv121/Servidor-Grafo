@@ -4,5 +4,9 @@
 CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.o: ../Grafo.cpp
 CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.o: ../Grafo.hpp
 
+CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../TcpListener.cpp
+CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../TcpListener.hpp
+
+CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../TcpListener.hpp
 CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../main.cpp
 

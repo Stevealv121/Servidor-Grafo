@@ -150,6 +150,33 @@ Grafo.cpp.s:
 	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.s
 .PHONY : Grafo.cpp.s
 
+TcpListener.o: TcpListener.cpp.o
+
+.PHONY : TcpListener.o
+
+# target to build an object file
+TcpListener.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o
+.PHONY : TcpListener.cpp.o
+
+TcpListener.i: TcpListener.cpp.i
+
+.PHONY : TcpListener.i
+
+# target to preprocess a source file
+TcpListener.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.i
+.PHONY : TcpListener.cpp.i
+
+TcpListener.s: TcpListener.cpp.s
+
+.PHONY : TcpListener.s
+
+# target to generate assembly for a file
+TcpListener.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.s
+.PHONY : TcpListener.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Grafo.o"
 	@echo "... Grafo.i"
 	@echo "... Grafo.s"
+	@echo "... TcpListener.o"
+	@echo "... TcpListener.i"
+	@echo "... TcpListener.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

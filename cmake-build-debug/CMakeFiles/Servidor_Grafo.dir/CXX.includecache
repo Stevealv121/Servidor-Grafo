@@ -6,8 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/home/steve/CLionProjects/Servidor-Grafo/main.cpp
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp
 iostream
+-
+TcpListener.hpp
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+iostream
+-
+string
 -
 stdio.h
 -
