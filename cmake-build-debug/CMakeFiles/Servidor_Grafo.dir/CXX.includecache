@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp
+/home/steve/CLionProjects/Servidor-Grafo/Graph.cpp
 iostream
 -
-TcpListener.hpp
-/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+Graph.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
 
 /home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
 iostream
@@ -33,4 +35,14 @@ arpa/inet.h
 -
 netdb.h
 -
+
+/home/steve/CLionProjects/Servidor-Grafo/main.cpp
+iostream
+-
+string.h
+-
+TcpListener.hpp
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+Graph.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
 

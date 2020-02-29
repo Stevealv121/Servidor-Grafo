@@ -123,32 +123,32 @@ Servidor_Grafo/fast:
 	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/build
 .PHONY : Servidor_Grafo/fast
 
-Grafo.o: Grafo.cpp.o
+Graph.o: Graph.cpp.o
 
-.PHONY : Grafo.o
+.PHONY : Graph.o
 
 # target to build an object file
-Grafo.cpp.o:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.o
-.PHONY : Grafo.cpp.o
+Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
 
-Grafo.i: Grafo.cpp.i
+Graph.i: Graph.cpp.i
 
-.PHONY : Grafo.i
+.PHONY : Graph.i
 
 # target to preprocess a source file
-Grafo.cpp.i:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.i
-.PHONY : Grafo.cpp.i
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
 
-Grafo.s: Grafo.cpp.s
+Graph.s: Graph.cpp.s
 
-.PHONY : Grafo.s
+.PHONY : Graph.s
 
 # target to generate assembly for a file
-Grafo.cpp.s:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.s
-.PHONY : Grafo.cpp.s
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
 
 TcpListener.o: TcpListener.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Servidor_Grafo"
-	@echo "... Grafo.o"
-	@echo "... Grafo.i"
-	@echo "... Grafo.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
 	@echo "... TcpListener.o"
 	@echo "... TcpListener.i"
 	@echo "... TcpListener.s"

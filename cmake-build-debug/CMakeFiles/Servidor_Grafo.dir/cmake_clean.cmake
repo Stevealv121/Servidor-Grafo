@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Servidor_Grafo.dir/main.cpp.o"
-  "CMakeFiles/Servidor_Grafo.dir/Grafo.cpp.o"
+  "CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o"
   "CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o"
   "Servidor_Grafo.pdb"
   "Servidor_Grafo"

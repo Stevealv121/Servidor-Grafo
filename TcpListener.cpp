@@ -105,7 +105,7 @@ int TcpListener::waitForConnection(int listening) {
 
     int clientSocket = accept(listening, NULL,NULL);
 
-    std::cout<<"connection stablished"<<std::endl;
+    std::cout<<"connection established"<<std::endl;
 
 
 
