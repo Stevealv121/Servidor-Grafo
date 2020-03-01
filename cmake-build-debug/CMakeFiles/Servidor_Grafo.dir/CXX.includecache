@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/steve/CLionProjects/Servidor-Grafo/Graph.cpp
+/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp
 iostream
 -
-Graph.hpp
-/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
+Dijkstra.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
+climits
+-
+iostream
+-
 
 /home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
 
@@ -45,4 +51,6 @@ TcpListener.hpp
 /home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
 Graph.hpp
 /home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
+Dijkstra.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
 

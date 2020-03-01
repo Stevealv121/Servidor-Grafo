@@ -123,6 +123,33 @@ Servidor_Grafo/fast:
 	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/build
 .PHONY : Servidor_Grafo/fast
 
+Dijkstra.o: Dijkstra.cpp.o
+
+.PHONY : Dijkstra.o
+
+# target to build an object file
+Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o
+.PHONY : Dijkstra.cpp.o
+
+Dijkstra.i: Dijkstra.cpp.i
+
+.PHONY : Dijkstra.i
+
+# target to preprocess a source file
+Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.i
+.PHONY : Dijkstra.cpp.i
+
+Dijkstra.s: Dijkstra.cpp.s
+
+.PHONY : Dijkstra.s
+
+# target to generate assembly for a file
+Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.s
+.PHONY : Dijkstra.cpp.s
+
 Graph.o: Graph.cpp.o
 
 .PHONY : Graph.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Servidor_Grafo"
+	@echo "... Dijkstra.o"
+	@echo "... Dijkstra.i"
+	@echo "... Dijkstra.s"
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"

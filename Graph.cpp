@@ -51,10 +51,9 @@ void Graph::printAdjList(Graph::adjNode *ptr, int i) {
 
     while (ptr != nullptr) {
 
-        std::cout << "(" << i << ", " << ptr->val
-             << ", " << ptr->cost << ") ";
+        std::cout << "(" << i << ", " << ptr->val<< ", " << ptr->cost << ") ";
+        std::cout << std::endl;
         ptr = ptr->next;
     }
-    std::cout << std::endl;
 
 }

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp">
+			<Option target="Servidor_Grafo"/>
+		</Unit>
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp">
+			<Option target="Servidor_Grafo"/>
+		</Unit>
 		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Graph.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
