@@ -15,33 +15,40 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <netdb.h>
+#include "../Data Structures/Graph.hpp"
 
 #define MAX_BUFFER_SIZE (4096)
 
-//forward declaration of class
+/**
+ * Forward declaration of class
+ */
+
 class TcpListener;
 
-//callback to data received
+/**
+ * callback to data received
+ */
 typedef void (*messageRecievedHandler)(TcpListener *listener,int socketId, std::string msg);
 
-
+/**
+ * Client class implementation
+ */
 class TcpListener {
 
 public:
 
     TcpListener (std::string ipAddress, int port, messageRecievedHandler handler);
     ~TcpListener();
-    //init
-    //main processing loop
+
+    /**
+     * main processing loop
+     */
     void run();
 
-    //send a message to the specified client
+    /**
+     * send a message to the specified client
+     */
     void sendMessage(int clientSocket, std::string msg);
-
-    //receive loop
-    //send back message
-    //cleanup
-    void cleanup();
 
 private:
 
@@ -52,11 +59,21 @@ private:
     //create socket
     int createSocket();
 
-    //wait for a connection
+
+    /**
+     * Wait for a connection
+     * @param listening socket
+     * @return client socket
+     */
     int waitForConnection(int listening);
 
-    //test dijkstra.A
+    /**
+     * test dijkstra algorithm
+     * @param clientSocket socket
+     * @return test resolution
+     */
     int runTest(int clientSocket);
+
 
 
 };

@@ -7,6 +7,7 @@
 #include <iostream>
 #include "TcpListener.hpp"
 #include "../Algorithm/Dijkstra.hpp"
+#include "../Data Structures/Graph.hpp"
 
 TcpListener::TcpListener(std::string ipAddress, int port, messageRecievedHandler handler)
     :m_ipAddress(std::move(ipAddress)), m_port(port), messageReceived(handler)
@@ -33,7 +34,6 @@ void TcpListener::run() {
 
 
         if(client != -1){
-            //TODO: close socket
             close(listening);
             int bytesReceived = 0;
             do{
@@ -43,7 +43,7 @@ void TcpListener::run() {
 
                 bytesReceived = static_cast<int>(recv(client, buffer, MAX_BUFFER_SIZE, 0));
                 if(bytesReceived>0){
-                    if(messageReceived != NULL){
+                    if(messageReceived != nullptr){
 
                         //echo message
                         sendMessage(client,std::string(buffer, 0, static_cast<unsigned long>(bytesReceived)));
@@ -68,14 +68,11 @@ void TcpListener::run() {
 void TcpListener::sendMessage(int clientSocket, std::string msg) {
 
     std::string endline = "\n";
-    send(clientSocket,msg.c_str(),msg.size()+1, 0);
-    send(clientSocket,endline.c_str(),endline.size()+1,0);
+    send(clientSocket,msg.c_str(),msg.size(), 0);
+    send(clientSocket,endline.c_str(),endline.size(),0);
 
 }
 
-void TcpListener::cleanup() {
-
-}
 
 int TcpListener::createSocket() {
 
@@ -109,12 +106,7 @@ int TcpListener::createSocket() {
 
 int TcpListener::waitForConnection(int listening) {
 
-    //sockaddr_in client;
-    //socklen_t clientSize = sizeof(client);
-
-    //int clientSocket = accept(listening, (sockaddr*)&client,&clientSize);
-
-    int clientSocket = accept(listening, NULL,NULL);
+    int clientSocket = accept(listening, nullptr, nullptr);
 
     std::cout<<"connection established"<<std::endl;
 
@@ -126,13 +118,15 @@ int TcpListener::runTest(int clientSocket) {
     std::cout<<"running test"<<std::endl;
 
     Dijkstra dijkstra;
-    int graph[vertex][vertex]={{0,5,3,0,0,0,0},{0,0,2,0,3,0,1},{0,0,0,7,7,0,0},{2,0,0,0,0,6,0},{0,0,0,2,0,1,0},{0,0,0,0,0,0,0},
-                               {0,0,0,0,1,0,0}};
-    dijkstra.algorithm(graph,0);
+    int graphD[vertex][vertex] = {{0,5,3,0,0,0,0},{0,0,2,0,3,0,1},{0,0,0,7,7,0,0},
+                                  {2,0,0,0,0,6,0},{0,0,0,2,0,1,0},{0,0,0,0,0,0,0},
+                                  {0,0,0,0,1,0,0}};
+    dijkstra.algorithm(graphD,0);
     List list = dijkstra.getTestString();
-    list.display();
+    //list.display();
 
     //for loop, sending each line of the test to the client
+    sendMessage(clientSocket,"Vertex\t\tDistance from source");
     for(int i=0; i<vertex; i++)
     {
         sendMessage(clientSocket,list.pop());

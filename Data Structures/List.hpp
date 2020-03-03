@@ -7,7 +7,9 @@
 
 #include <iostream>
 
-
+/**
+ * Singly linked list
+ */
 class List {
 public:
 
@@ -20,8 +22,15 @@ public:
 
     void createnode(std::string value);
     void display();
+    /**
+     * insert at the beginning of the list
+     * @param value string
+     */
     void insert(std::string value);
-
+    /**
+     * Delete last value
+     * @return deleted value
+     */
     std::string pop();
 
 private:

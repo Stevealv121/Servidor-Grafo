@@ -7,10 +7,10 @@ using namespace std;
 
 int Dijkstra::minimumDistance(int *dist, bool *Dset) {
 
-    int min = INT_MAX,index;
+    int min = INT_MAX, index = 0;
     for (int i=0;i<vertex;i++)
     {
-        if(Dset[i]== false && dist[i]<=min)
+        if(!Dset[i] && dist[i] <= min)
         {
             min=dist[i];
             index=i;
@@ -47,24 +47,17 @@ void Dijkstra::algorithm(int graph[vertex][vertex], int src) {
     cout<<"Vertex\t\tDistance from source"<<endl;
     List list;
     string catcher;
-    string lol = "\t\t\t";
+    string ll = "\t\t\t";
     for(int i = 0; i<vertex; i++)
     { //Printing
 
         char str=65+i; // Ascii values for pritning A,B,C..
-        cout<<str<<lol<<distance[i]<<endl;
-        catcher = str+lol+to_string(distance[i]);
+        cout<<str<<ll<<distance[i]<<endl;
+        catcher = str+ll+to_string(distance[i]);
         list.insert(catcher);
-        //sendTest(&catcher);
         catcher = "";
     }
     setTestString(list);
-
-}
-
-void Dijkstra::sendTest(string *line ) {
-
-    msg = *line;
 
 }
 
