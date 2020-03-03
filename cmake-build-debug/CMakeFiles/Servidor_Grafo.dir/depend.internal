@@ -4,14 +4,20 @@
 CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o
  /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp
  /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
+ /home/steve/CLionProjects/Servidor-Grafo/List.hpp
 CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o
  /home/steve/CLionProjects/Servidor-Grafo/Graph.cpp
  /home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
+CMakeFiles/Servidor_Grafo.dir/List.cpp.o
+ /home/steve/CLionProjects/Servidor-Grafo/List.cpp
+ /home/steve/CLionProjects/Servidor-Grafo/List.hpp
 CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o
+ /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
+ /home/steve/CLionProjects/Servidor-Grafo/List.hpp
  /home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp
  /home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
 CMakeFiles/Servidor_Grafo.dir/main.cpp.o
- /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp
  /home/steve/CLionProjects/Servidor-Grafo/Graph.hpp
+ /home/steve/CLionProjects/Servidor-Grafo/List.hpp
  /home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
  /home/steve/CLionProjects/Servidor-Grafo/main.cpp

@@ -177,6 +177,33 @@ Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s
 .PHONY : Graph.cpp.s
 
+List.o: List.cpp.o
+
+.PHONY : List.o
+
+# target to build an object file
+List.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.o
+.PHONY : List.cpp.o
+
+List.i: List.cpp.i
+
+.PHONY : List.i
+
+# target to preprocess a source file
+List.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.i
+.PHONY : List.cpp.i
+
+List.s: List.cpp.s
+
+.PHONY : List.s
+
+# target to generate assembly for a file
+List.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.s
+.PHONY : List.cpp.s
+
 TcpListener.o: TcpListener.cpp.o
 
 .PHONY : TcpListener.o
@@ -246,6 +273,9 @@ help:
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
 	@echo "... TcpListener.o"
 	@echo "... TcpListener.i"
 	@echo "... TcpListener.s"

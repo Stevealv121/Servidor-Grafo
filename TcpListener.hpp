@@ -55,6 +55,10 @@ private:
     //wait for a connection
     int waitForConnection(int listening);
 
+    //test dijkstra.A
+    int runTest(int clientSocket);
+
+
 };
 
 

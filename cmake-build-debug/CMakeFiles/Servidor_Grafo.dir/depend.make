@@ -3,15 +3,21 @@
 
 CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o: ../Dijkstra.cpp
 CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o: ../Dijkstra.hpp
+CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o: ../List.hpp
 
 CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o: ../Graph.cpp
 CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o: ../Graph.hpp
 
+CMakeFiles/Servidor_Grafo.dir/List.cpp.o: ../List.cpp
+CMakeFiles/Servidor_Grafo.dir/List.cpp.o: ../List.hpp
+
+CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../Dijkstra.hpp
+CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../List.hpp
 CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../TcpListener.cpp
 CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../TcpListener.hpp
 
-CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../Dijkstra.hpp
 CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../Graph.hpp
+CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../List.hpp
 CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../TcpListener.hpp
 CMakeFiles/Servidor_Grafo.dir/main.cpp.o: ../main.cpp
 

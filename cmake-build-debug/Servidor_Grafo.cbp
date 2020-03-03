@@ -96,6 +96,12 @@
 		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/List.cpp">
+			<Option target="Servidor_Grafo"/>
+		</Unit>
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/List.hpp">
+			<Option target="Servidor_Grafo"/>
+		</Unit>
 		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>

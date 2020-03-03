@@ -45,10 +45,35 @@ void Dijkstra::algorithm(int graph[vertex][vertex], int src) {
     }
 
     cout<<"Vertex\t\tDistance from source"<<endl;
+    List list;
+    string catcher;
+    string lol = "\t\t\t";
     for(int i = 0; i<vertex; i++)
     { //Printing
-        char str=65+i; // Ascii values for pritning A,B,C..
-        cout<<str<<"\t\t\t"<<distance[i]<<endl;
-    }
 
+        char str=65+i; // Ascii values for pritning A,B,C..
+        cout<<str<<lol<<distance[i]<<endl;
+        catcher = str+lol+to_string(distance[i]);
+        list.insert(catcher);
+        //sendTest(&catcher);
+        catcher = "";
+    }
+    setTestString(list);
+
+}
+
+void Dijkstra::sendTest(string *line ) {
+
+    msg = *line;
+
+}
+
+
+const List &Dijkstra::getTestString() const {
+    return testString;
+}
+
+void Dijkstra::setTestString(const List &testString) {
+
+    Dijkstra::testString = testString;
 }

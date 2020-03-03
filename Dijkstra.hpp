@@ -8,6 +8,7 @@
 
 #include <climits>
 #include <iostream>
+#include "List.hpp"
 
 
 class Dijkstra {
@@ -17,6 +18,18 @@ public:
     int minimumDistance(int distance[], bool Dset[]);
 
     void algorithm(int graph[vertex][vertex], int src);
+
+    void sendTest(std::string *line);
+
+    const List &getTestString() const;
+
+    void setTestString(const List &testString);
+
+    std::string msg;
+
+private:
+
+    List testString;
 
 };
 
