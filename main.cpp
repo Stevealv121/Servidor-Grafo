@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string.h>
-#include "TcpListener.hpp"
-#include "Graph.hpp"
-#include "List.hpp"
+#include "Server/TcpListener.hpp"
 
 
 using namespace std;

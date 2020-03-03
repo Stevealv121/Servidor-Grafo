@@ -70,74 +70,74 @@ CMakeFiles/Servidor_Grafo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/main.cpp -o CMakeFiles/Servidor_Grafo.dir/main.cpp.s
 
-CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
-CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o: ../Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/Graph.cpp
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o: ../Data\ Structures/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o -c "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.cpp"
 
-CMakeFiles/Servidor_Grafo.dir/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/Graph.cpp > CMakeFiles/Servidor_Grafo.dir/Graph.cpp.i
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.cpp" > CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.i
 
-CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/Graph.cpp -o CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.cpp" -o CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.s
 
-CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
-CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o: ../TcpListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp
+CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
+CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o: ../Server/TcpListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/Server/TcpListener.cpp
 
-CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp > CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.i
+CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/Server/TcpListener.cpp > CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.i
 
-CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp -o CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.s
+CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/Server/TcpListener.cpp -o CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.s
 
-CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
-CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o: ../Dijkstra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp
+CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
+CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o: ../Algorithm/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.cpp
 
-CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp > CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.i
+CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.cpp > CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.i
 
-CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp -o CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.s
+CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.cpp -o CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.s
 
-CMakeFiles/Servidor_Grafo.dir/List.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
-CMakeFiles/Servidor_Grafo.dir/List.cpp.o: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Servidor_Grafo.dir/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/List.cpp.o -c /home/steve/CLionProjects/Servidor-Grafo/List.cpp
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o: CMakeFiles/Servidor_Grafo.dir/flags.make
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o: ../Data\ Structures/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o -c "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.cpp"
 
-CMakeFiles/Servidor_Grafo.dir/List.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/CLionProjects/Servidor-Grafo/List.cpp > CMakeFiles/Servidor_Grafo.dir/List.cpp.i
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.cpp" > CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.i
 
-CMakeFiles/Servidor_Grafo.dir/List.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/CLionProjects/Servidor-Grafo/List.cpp -o CMakeFiles/Servidor_Grafo.dir/List.cpp.s
+CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.cpp" -o CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.s
 
 # Object files for target Servidor_Grafo
 Servidor_Grafo_OBJECTS = \
 "CMakeFiles/Servidor_Grafo.dir/main.cpp.o" \
-"CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o" \
-"CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o" \
-"CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o" \
-"CMakeFiles/Servidor_Grafo.dir/List.cpp.o"
+"CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o" \
+"CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o" \
+"CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o" \
+"CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o"
 
 # External object files for target Servidor_Grafo
 Servidor_Grafo_EXTERNAL_OBJECTS =
 
 Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/main.cpp.o
-Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o
-Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o
-Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o
-Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/List.cpp.o
+Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o
+Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o
+Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o
+Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o
 Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/build.make
 Servidor_Grafo: CMakeFiles/Servidor_Grafo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steve/CLionProjects/Servidor-Grafo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Servidor_Grafo"

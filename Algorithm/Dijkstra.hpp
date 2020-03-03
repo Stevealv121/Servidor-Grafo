@@ -8,7 +8,7 @@
 
 #include <climits>
 #include <iostream>
-#include "List.hpp"
+#include "../Data Structures/List.hpp"
 
 
 class Dijkstra {

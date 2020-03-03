@@ -6,11 +6,73 @@
 
 #IncludeRegexTransform: 
 
-/home/steve/CLionProjects/Servidor-Grafo/List.cpp
-List.hpp
-/home/steve/CLionProjects/Servidor-Grafo/List.hpp
-
-/home/steve/CLionProjects/Servidor-Grafo/List.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.cpp
 iostream
 -
+Dijkstra.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.hpp
+climits
+-
+iostream
+-
+../Data Structures/List.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.cpp
+iostream
+-
+Graph.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.cpp
+List.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.hpp
+iostream
+-
+
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp
+utility
+-
+iostream
+-
+TcpListener.hpp
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+Algorithm/Dijkstra.hpp
+/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.hpp
+
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
+iostream
+-
+string
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+
+/home/steve/CLionProjects/Servidor-Grafo/main.cpp
+iostream
+-
+string.h
+-
+TcpListener.hpp
+/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp
 

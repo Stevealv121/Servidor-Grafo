@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Servidor_Grafo.dir/main.cpp.o"
-  "CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o"
-  "CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o"
-  "CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o"
-  "CMakeFiles/Servidor_Grafo.dir/List.cpp.o"
+  "CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o"
+  "CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o"
+  "CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o"
+  "CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o"
   "Servidor_Grafo.pdb"
   "Servidor_Grafo"
 )

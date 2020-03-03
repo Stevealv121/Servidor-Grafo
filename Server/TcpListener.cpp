@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include "TcpListener.hpp"
-#include "Dijkstra.hpp"
+#include "../Algorithm/Dijkstra.hpp"
 
 TcpListener::TcpListener(std::string ipAddress, int port, messageRecievedHandler handler)
     :m_ipAddress(std::move(ipAddress)), m_port(port), messageReceived(handler)

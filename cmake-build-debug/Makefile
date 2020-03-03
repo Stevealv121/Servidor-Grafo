@@ -123,113 +123,113 @@ Servidor_Grafo/fast:
 	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/build
 .PHONY : Servidor_Grafo/fast
 
-Dijkstra.o: Dijkstra.cpp.o
+Algorithm/Dijkstra.o: Algorithm/Dijkstra.cpp.o
 
-.PHONY : Dijkstra.o
-
-# target to build an object file
-Dijkstra.cpp.o:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.o
-.PHONY : Dijkstra.cpp.o
-
-Dijkstra.i: Dijkstra.cpp.i
-
-.PHONY : Dijkstra.i
-
-# target to preprocess a source file
-Dijkstra.cpp.i:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.i
-.PHONY : Dijkstra.cpp.i
-
-Dijkstra.s: Dijkstra.cpp.s
-
-.PHONY : Dijkstra.s
-
-# target to generate assembly for a file
-Dijkstra.cpp.s:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Dijkstra.cpp.s
-.PHONY : Dijkstra.cpp.s
-
-Graph.o: Graph.cpp.o
-
-.PHONY : Graph.o
+.PHONY : Algorithm/Dijkstra.o
 
 # target to build an object file
-Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.o
-.PHONY : Graph.cpp.o
+Algorithm/Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.o
+.PHONY : Algorithm/Dijkstra.cpp.o
 
-Graph.i: Graph.cpp.i
+Algorithm/Dijkstra.i: Algorithm/Dijkstra.cpp.i
 
-.PHONY : Graph.i
+.PHONY : Algorithm/Dijkstra.i
 
 # target to preprocess a source file
-Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.i
-.PHONY : Graph.cpp.i
+Algorithm/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.i
+.PHONY : Algorithm/Dijkstra.cpp.i
 
-Graph.s: Graph.cpp.s
+Algorithm/Dijkstra.s: Algorithm/Dijkstra.cpp.s
 
-.PHONY : Graph.s
+.PHONY : Algorithm/Dijkstra.s
 
 # target to generate assembly for a file
-Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Graph.cpp.s
-.PHONY : Graph.cpp.s
+Algorithm/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Algorithm/Dijkstra.cpp.s
+.PHONY : Algorithm/Dijkstra.cpp.s
 
-List.o: List.cpp.o
+Data_Structures/Graph.o: Data_Structures/Graph.cpp.o
 
-.PHONY : List.o
+.PHONY : Data_Structures/Graph.o
 
 # target to build an object file
-List.cpp.o:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.o
-.PHONY : List.cpp.o
+Data_Structures/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.o
+.PHONY : Data_Structures/Graph.cpp.o
 
-List.i: List.cpp.i
+Data_Structures/Graph.i: Data_Structures/Graph.cpp.i
 
-.PHONY : List.i
+.PHONY : Data_Structures/Graph.i
 
 # target to preprocess a source file
-List.cpp.i:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.i
-.PHONY : List.cpp.i
+Data_Structures/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.i
+.PHONY : Data_Structures/Graph.cpp.i
 
-List.s: List.cpp.s
+Data_Structures/Graph.s: Data_Structures/Graph.cpp.s
 
-.PHONY : List.s
+.PHONY : Data_Structures/Graph.s
 
 # target to generate assembly for a file
-List.cpp.s:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/List.cpp.s
-.PHONY : List.cpp.s
+Data_Structures/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/Graph.cpp.s
+.PHONY : Data_Structures/Graph.cpp.s
 
-TcpListener.o: TcpListener.cpp.o
+Data_Structures/List.o: Data_Structures/List.cpp.o
 
-.PHONY : TcpListener.o
+.PHONY : Data_Structures/List.o
 
 # target to build an object file
-TcpListener.cpp.o:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.o
-.PHONY : TcpListener.cpp.o
+Data_Structures/List.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.o
+.PHONY : Data_Structures/List.cpp.o
 
-TcpListener.i: TcpListener.cpp.i
+Data_Structures/List.i: Data_Structures/List.cpp.i
 
-.PHONY : TcpListener.i
+.PHONY : Data_Structures/List.i
 
 # target to preprocess a source file
-TcpListener.cpp.i:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.i
-.PHONY : TcpListener.cpp.i
+Data_Structures/List.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.i
+.PHONY : Data_Structures/List.cpp.i
 
-TcpListener.s: TcpListener.cpp.s
+Data_Structures/List.s: Data_Structures/List.cpp.s
 
-.PHONY : TcpListener.s
+.PHONY : Data_Structures/List.s
 
 # target to generate assembly for a file
-TcpListener.cpp.s:
-	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/TcpListener.cpp.s
-.PHONY : TcpListener.cpp.s
+Data_Structures/List.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Data_Structures/List.cpp.s
+.PHONY : Data_Structures/List.cpp.s
+
+Server/TcpListener.o: Server/TcpListener.cpp.o
+
+.PHONY : Server/TcpListener.o
+
+# target to build an object file
+Server/TcpListener.cpp.o:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.o
+.PHONY : Server/TcpListener.cpp.o
+
+Server/TcpListener.i: Server/TcpListener.cpp.i
+
+.PHONY : Server/TcpListener.i
+
+# target to preprocess a source file
+Server/TcpListener.cpp.i:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.i
+.PHONY : Server/TcpListener.cpp.i
+
+Server/TcpListener.s: Server/TcpListener.cpp.s
+
+.PHONY : Server/TcpListener.s
+
+# target to generate assembly for a file
+Server/TcpListener.cpp.s:
+	$(MAKE) -f CMakeFiles/Servidor_Grafo.dir/build.make CMakeFiles/Servidor_Grafo.dir/Server/TcpListener.cpp.s
+.PHONY : Server/TcpListener.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Servidor_Grafo"
-	@echo "... Dijkstra.o"
-	@echo "... Dijkstra.i"
-	@echo "... Dijkstra.s"
-	@echo "... Graph.o"
-	@echo "... Graph.i"
-	@echo "... Graph.s"
-	@echo "... List.o"
-	@echo "... List.i"
-	@echo "... List.s"
-	@echo "... TcpListener.o"
-	@echo "... TcpListener.i"
-	@echo "... TcpListener.s"
+	@echo "... Algorithm/Dijkstra.o"
+	@echo "... Algorithm/Dijkstra.i"
+	@echo "... Algorithm/Dijkstra.s"
+	@echo "... Data_Structures/Graph.o"
+	@echo "... Data_Structures/Graph.i"
+	@echo "... Data_Structures/Graph.s"
+	@echo "... Data_Structures/List.o"
+	@echo "... Data_Structures/List.i"
+	@echo "... Data_Structures/List.s"
+	@echo "... Server/TcpListener.o"
+	@echo "... Server/TcpListener.i"
+	@echo "... Server/TcpListener.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -84,28 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.cpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Dijkstra.hpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Algorithm/Dijkstra.hpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Graph.cpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Graph.hpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Data Structures/Graph.hpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/List.cpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/List.hpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Data Structures/List.hpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/TcpListener.cpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Server/TcpListener.cpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
-		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/TcpListener.hpp">
+		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/Server/TcpListener.hpp">
 			<Option target="Servidor_Grafo"/>
 		</Unit>
 		<Unit filename="/home/steve/CLionProjects/Servidor-Grafo/main.cpp">
